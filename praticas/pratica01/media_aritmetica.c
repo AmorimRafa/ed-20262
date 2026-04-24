@@ -12,6 +12,7 @@ void media(int tamanho){
   printf("resultado = %.1f \n", media);
 }
 
+
 int main(){
   int tamanho = 0;
   printf("Insira o tamanho \n");

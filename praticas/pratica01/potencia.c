@@ -8,7 +8,6 @@ void power(int b, int e){
   printf("Resultado: %d \n", resultado);
 }
 
-
 int main(){
   int b = 0;
   int e = 0;

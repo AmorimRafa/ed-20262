@@ -5,7 +5,8 @@ float calc_imc(float peso, float altura){
     if (peso <= 0.0 || altura <= 0.0){
         printf("Peso ou altura invalidos!\n");
 
-    }else{
+    }else
+    {
         if (imc <= 18.5){
             printf("Abaixo do peso\n");
         }
