@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "selecao.h"
-#define N 5
+#define N 100
 
 
 int main(){
@@ -14,7 +14,7 @@ int main(){
     int arr_l[N];
 
     for(int s=0; s<N; s++){
-        arr_l[s] = (rand() % 20); //preeenche matriz 
+        arr_l[s] = (rand() % 200); //preeenche matriz 
     }
     
     printf("Matriz Linear \n");
@@ -37,7 +37,7 @@ int main(){
     int arr_q[N];
 
     for(int s=0; s<N; s++){
-        arr_q[s] = (rand() % 20); //preeenche matriz 
+        arr_q[s] = (rand() % 200); //preeenche matriz 
     }
     
     printf("Matriz Quick \n");
